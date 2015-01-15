@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt@3.0' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json workshop@0.0.0 No description
+6 warn package.json workshop@0.0.0 No repository field.
+7 warn package.json workshop@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt@3.0', null ]
+10 verbose cache add name=undefined spec="grunt@3.0" args=["grunt@3.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt@3.0',
+11 verbose parsed url   path: 'grunt@3.0',
+11 verbose parsed url   href: 'grunt@3.0' }
+12 verbose cache add name="grunt" spec="3.0" args=["grunt","3.0"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '3.0',
+13 verbose parsed url   path: '3.0',
+13 verbose parsed url   href: '3.0' }
+14 verbose addNamed [ 'grunt', '3.0' ]
+15 verbose addNamed [ null, '>=3.0.0-0 <3.1.0-0' ]
+16 silly lockFile 408fe427-grunt-3-0 grunt@3.0
+17 verbose lock grunt@3.0 C:\Users\roberto.bon\AppData\Roaming\npm-cache\408fe427-grunt-3-0.lock
+18 silly addNameRange { name: 'grunt', range: '>=3.0.0-0 <3.1.0-0', hasData: false }
+19 verbose request where is /grunt
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 64478942620c5fb4
+22 verbose url raw /grunt
+23 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+24 verbose url resolved https://registry.npmjs.org/grunt
+25 verbose request where is https://registry.npmjs.org/grunt
+26 info trying registry request attempt 1 at 22:20:16
+27 verbose etag "BKP93AOREM8BIUYUG2CRBLEV6"
+28 http GET https://registry.npmjs.org/grunt
+29 http 304 https://registry.npmjs.org/grunt
+30 silly registry.get cb [ 304,
+30 silly registry.get   { date: 'Wed, 07 Jan 2015 21:20:17 GMT',
+30 silly registry.get     server: 'Apache',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     'last-modified': 'Wed, 07 Jan 2015 21:20:17 GMT',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     etag: '"BKP93AOREM8BIUYUG2CRBLEV6"',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1420665617.177325,VS0,VE439',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'content-length': '0',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 verbose etag https://registry.npmjs.org/grunt from cache
+32 silly addNameRange number 2 { name: 'grunt', range: '>=3.0.0-0 <3.1.0-0', hasData: true }
+33 silly addNameRange versions [ 'grunt',
+33 silly addNameRange   [ '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.1.2',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.2.3',
+33 silly addNameRange     '0.2.4',
+33 silly addNameRange     '0.2.5',
+33 silly addNameRange     '0.2.6',
+33 silly addNameRange     '0.2.7',
+33 silly addNameRange     '0.2.8',
+33 silly addNameRange     '0.2.9',
+33 silly addNameRange     '0.2.10',
+33 silly addNameRange     '0.2.11',
+33 silly addNameRange     '0.2.12',
+33 silly addNameRange     '0.2.13',
+33 silly addNameRange     '0.2.14',
+33 silly addNameRange     '0.2.15',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.2',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.3.4',
+33 silly addNameRange     '0.3.5',
+33 silly addNameRange     '0.3.6',
+33 silly addNameRange     '0.3.7',
+33 silly addNameRange     '0.3.8',
+33 silly addNameRange     '0.3.9',
+33 silly addNameRange     '0.3.10',
+33 silly addNameRange     '0.3.11',
+33 silly addNameRange     '0.3.12',
+33 silly addNameRange     '0.3.13',
+33 silly addNameRange     '0.3.14',
+33 silly addNameRange     '0.3.15',
+33 silly addNameRange     '0.3.16',
+33 silly addNameRange     '0.3.17',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.4.2',
+33 silly addNameRange     '0.4.3',
+33 silly addNameRange     '0.4.4',
+33 silly addNameRange     '0.4.5',
+33 silly addNameRange     '0.3.13-a',
+33 silly addNameRange     '0.4.0-a',
+33 silly addNameRange     '0.4.0-rc1',
+33 silly addNameRange     '0.4.0-rc2',
+33 silly addNameRange     '0.4.0-rc3',
+33 silly addNameRange     '0.4.0-rc4',
+33 silly addNameRange     '0.4.0-rc5',
+33 silly addNameRange     '0.4.0-rc6',
+33 silly addNameRange     '0.4.0-rc7',
+33 silly addNameRange     '0.4.0-rc8' ] ]
+34 silly lockFile 408fe427-grunt-3-0 grunt@3.0
+35 silly lockFile 408fe427-grunt-3-0 grunt@3.0
+36 error notarget No compatible version found: grunt@'>=3.0.0-0 <3.1.0-0'
+36 error notarget Valid install targets:
+36 error notarget ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12","0.2.13","0.2.14","0.2.15","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.5","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.3.13-a","0.4.0-a","0.4.0-rc1","0.4.0-rc2","0.4.0-rc3","0.4.0-rc4","0.4.0-rc5","0.4.0-rc6","0.4.0-rc7","0.4.0-rc8"]
+36 error notarget
+36 error notarget This is most likely not a problem with npm itself.
+36 error notarget In most cases you or one of your dependencies are requesting
+36 error notarget a package version that doesn't exist.
+37 error System Windows_NT 6.1.7601
+38 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt@3.0"
+39 error cwd C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\data\localweb\projects\workshop
+40 error node -v v0.10.35
+41 error npm -v 1.4.28
+42 error code ETARGET
+43 verbose exit [ 1, true ]
