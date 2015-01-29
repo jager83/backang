@@ -28,8 +28,7 @@ requirejs.config({
 // Let's kick off the application
 requirejs([
     'underscore',
-    'router',
-    'vfactory'
-], function(_, Router, Vfactory){
+    'router'
+], function(_, Router){
     Router.initialize({});  
 });
