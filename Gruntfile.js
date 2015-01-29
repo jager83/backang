@@ -49,12 +49,14 @@ module.exports = function (grunt) {
                     'test/spec/**/*.js'
                 ]
             },
+            /*
             jst: {
                 files: [
                     '<%= yeoman.app %>/scripts/templates/*.ejs'
                 ],
                 tasks: ['jst']
             },
+            */
             test: {
                 files: ['<%= yeoman.app %>/scripts/{,*/}*.js', 'test/spec/**/*.js'],
                 tasks: ['test:true']
@@ -307,7 +309,7 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'createDefaultTemplate',
-            'jst',
+            // 'jst',
             'compass:server',
             'connect:livereload',
             'open:server',
